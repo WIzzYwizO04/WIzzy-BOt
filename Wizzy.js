@@ -1,7 +1,7 @@
 /**
  * @author WIzzyWIzo
  * ! The source code is written by NTKhang, please don't change the author's name everywhere. Thank you for using
- * ! Official source code: https://github.com/ntkhang03/Goat-Bot-V2
+ * ! Official source code: https://github.com/WIzzYwizO04/WIzzy-BOt
  * ! If you do not download the source code from the above address, you are using an unknown version and at risk of having your account hacked
  *
  * 
@@ -59,7 +59,7 @@ if (config.whiteListMode?.whiteListIds && Array.isArray(config.whiteListMode.whi
 	config.whiteListMode.whiteListIds = config.whiteListMode.whiteListIds.map(id => id.toString());
 const configCommands = require(dirConfigCommands);
 
-global.GoatBot = {
+global.wIzzyBOt = {
 	startTime: Date.now() - process.uptime() * 1000, // time start bot (ms)
 	commands: new Map(), // store all commands
 	eventCommands: new Map(), // store all event commands
